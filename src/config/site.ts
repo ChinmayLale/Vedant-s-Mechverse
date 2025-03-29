@@ -1,3 +1,7 @@
+import p1 from '../assets/images/Screen Shots/benchWise .png';
+import p2 from '../assets/images/Screen Shots/plumer.png';
+
+
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
@@ -53,15 +57,19 @@ export const siteConfig = {
   ModelInfo: [
     {
       title: "Benchwise Assembly",
-      desc: "A precision bench vise designed for holding workpieces securely during machining and assembly."
+      desc: "A precision bench vise designed for holding workpieces securely during machining and assembly.",
+      img: p1
     },
     {
       title: "Screw Jack",
-      desc: "A mechanical device used to lift heavy loads, commonly seen in automotive and industrial applications."
+      desc: "A mechanical device used to lift heavy loads, commonly seen in automotive and industrial applications.",
+      img: p2
     },
+
     {
       title: "Butterfly Valve",
-      desc: "A flow control device used to regulate liquids and gases, featuring a rotating disc mechanism."
+      desc: "A flow control device used to regulate liquids and gases, featuring a rotating disc mechanism.",
+      img: ''
     },
     {
       title: "Engine Assembly",
@@ -77,7 +85,7 @@ export const siteConfig = {
   eduInfo: [
     {
       id: "1",
-      title: "Modern College of Engineering, Pune",
+      title: "PES Modern College of Engineering, Pune",
       description: "Pursuing Bachelor's in Mechanical Engineering.",
       date: "2026",
       icon: "mdi:graduation-cap",
@@ -101,7 +109,7 @@ export const siteConfig = {
     },
     {
       id: "3",
-      title: "Jñana Prabodhini Solapur",
+      title: "Jnana Prabodhini Solapur",
       description: "Completed SSC with 87%.",
       date: "2019",
       icon: "mdi:school", // Iconify school icon
@@ -114,4 +122,30 @@ export const siteConfig = {
   ],
 
 
+  skillCategories: [
+    {
+      title: "Engineering",
+      skills: [
+        { name: "CAD Design", proficiency: 90 },
+        { name: "FEA Analysis", proficiency: 85 },
+        { name: "Motion Optimization", proficiency: 95 },
+        { name: "Mechanical Systems", proficiency: 90 }
+      ]
+    },
+    {
+      title: "Software",
+      skills: [
+        { name: "SolidWorks", proficiency: 95 },
+        { name: "ANSYS", proficiency: 85 },
+        { name: "MATLAB", proficiency: 80 },
+        { name: "AutoCAD", proficiency: 90 }
+      ]
+    },
+    {
+      title: "Coding",
+      skills: [
+        { name: "Python", proficiency: 70 }
+      ]
+    }
+  ]
 };

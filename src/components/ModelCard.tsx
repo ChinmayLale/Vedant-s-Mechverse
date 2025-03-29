@@ -5,7 +5,7 @@ import { Card, CardBody } from '@heroui/card'
 import { Image } from "@heroui/image";
 // import { Icon } from "@iconify/react";
 
-export default function Component({title="" , desc=""}) {
+export default function Component({title="" , desc="" , img=null}) {
     return (
         <Card className="w-full max-w-[520px]">
             <CardBody className="flex flex-row flex-wrap p-0 sm:flex-nowrap">
@@ -14,7 +14,7 @@ export default function Component({title="" , desc=""}) {
                     isBlurred
                     alt="Acme Creators"
                     className="h-auto w-full flex-none object-cover object-top md:w-48"
-                    src="https://nextuipro.nyc3.cdn.digitaloceanspaces.com/components-images/hero-card-complete.jpeg"
+                    src={img || "https://nextuipro.nyc3.cdn.digitaloceanspaces.com/components-images/hero-card-complete.jpeg"}
                 />
                 <div className="px-4 py-5">
                     <h3 className="text-large font-medium">{title}</h3>
