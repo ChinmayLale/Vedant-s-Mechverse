@@ -5,7 +5,7 @@ import { Card, CardBody } from '@heroui/card'
 import { Image } from "@heroui/image";
 // import { Icon } from "@iconify/react";
 
-export default function Component({title="" , desc="" , img=null}) {
+export default function Component({title="" , desc="" , img=""}) {
     return (
         <Card className="w-full max-w-[520px]">
             <CardBody className="flex flex-row flex-wrap p-0 sm:flex-nowrap">

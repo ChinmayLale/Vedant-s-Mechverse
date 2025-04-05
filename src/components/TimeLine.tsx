@@ -9,7 +9,7 @@ interface TimelineItem {
   description: string;
   date: string;
   icon?: string;
-  status?: "completed" | "pending" | "in-progress";
+  status?: string;
   user?: {
     name: string;
     avatar: string;
@@ -36,7 +36,7 @@ export const Timeline: React.FC<TimelineProps> = ({items}) => {
 
   return (
     <div className="relative space-y-8 before:absolute before:inset-0 before:ml-5 before:h-full before:w-0.5 before:-translate-x-px before:bg-default-100">
-      {items.map((item, index) => (
+      {items.map((item) => (
         <div key={item.id} className="relative flex gap-6">
           <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-default-100">
             {item.icon ? (

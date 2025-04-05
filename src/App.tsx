@@ -8,7 +8,7 @@ import AboutPage from "@/pages/about";
 function App() {
   return (
     <Routes>
-      <Route element={<IndexPage />} path="/" />
+      <Route element={<IndexPage />} path="/Vedant-s-Mechverse/" />
       <Route element={<DocsPage />} path="/about" />
       <Route element={<PricingPage />} path="/projects" />
       <Route element={<BlogPage />} path="/blog" />

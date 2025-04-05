@@ -10,15 +10,15 @@ export const siteConfig = {
   navItems: [
     {
       label: "Home",
-      href: "/",
+      href: "/Vedant-s-Mechverse/",
     },
     {
       label: "About",
-      href: "/about",
+      href: "/Vedant-s-Mechverse/about",
     },
     {
       label: "Projects",
-      href: "/projects",
+      href: "/Vedant-s-Mechverse/projects",
     },
     {
       label: "Blog",
@@ -28,19 +28,19 @@ export const siteConfig = {
   navMenuItems: [
     {
       label: "Home",
-      href: "/",
+      href: "/Vedant-s-Mechverse/",
     },
     {
       label: "About",
-      href: "/about",
+      href: "/Vedant-s-Mechverse/about",
     },
     {
       label: "Projects",
-      href: "/projects",
+      href: "/Vedant-s-Mechverse/projects",
     },
     {
       label: "Blog",
-      href: "/blog",
+      href: "/Vedant-s-Mechverse/blog",
     },
   ],
   links: {
@@ -126,19 +126,19 @@ export const siteConfig = {
     {
       title: "Engineering",
       skills: [
-        { name: "CAD Design", proficiency: 90 },
-        { name: "FEA Analysis", proficiency: 85 },
-        { name: "Motion Optimization", proficiency: 95 },
-        { name: "Mechanical Systems", proficiency: 90 }
+        { name: "CAD Design", proficiency: 90 , image:'https://img.icons8.com/color/450/solidworks.png' },
+        { name: "FEA Analysis 1D", proficiency: 85 , image:'https://img.icons8.com/cute-clipart/500/fine-print.png' },
+        { name: "Motion Optimization", proficiency: 95 , image:'https://img.icons8.com/external-flaticons-lineal-color-flat-icons/450/external-aerodynamic-engineering-flaticons-lineal-color-flat-icons.png' },
+        { name: "Mechanical Systems", proficiency: 90 , image:'https://img.icons8.com/bubbles/450/services.png' }
       ]
     },
     {
       title: "Software",
       skills: [
-        { name: "SolidWorks", proficiency: 95 },
-        { name: "ANSYS", proficiency: 85 },
-        { name: "MATLAB", proficiency: 80 },
-        { name: "AutoCAD", proficiency: 90 }
+        { name: "AutoCAD", proficiency: 90  , image:"https://img.icons8.com/emoji/400/a-button-blood-type-emoji.png"},
+        { name: "ANSYS", proficiency: 70 , image:'https://img.icons8.com/windows/512/Ansys.png' },
+        { name: "CATIA", proficiency: 60  , image:'https://img.icons8.com/color/480/catia.png'},
+        { name: "SolidWorks", proficiency: 98 , image:'https://img.icons8.com/color/450/solidworks.png' }
       ]
     },
     {

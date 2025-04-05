@@ -1,4 +1,3 @@
-import React from 'react'
 import { title } from '../../components/primitives'
 import ModelCard from '../../components/ModelCard'
 import { Chip } from '@heroui/chip'
@@ -13,7 +12,7 @@ function Workshop() {
             </div>
             <section className="flex flex-row gap-x-20 gap-y-10 py-8 md:py-10 w-full flex-wrap">
                 {siteConfig.ModelInfo.slice(0, 4).map((model) => (
-                    <ModelCard title={model.title} desc={model.desc} img={model.img} />
+                    <ModelCard title={model.title} desc={model.desc} img={model.img || ""} />
                 ))}
             </section>
             <div className="w-full flex justify-end items-end cursor-pointer">

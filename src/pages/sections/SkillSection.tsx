@@ -1,4 +1,3 @@
-import React from 'react'
 import { title } from "../../components/primitives";
 import SkillsCard from '../../components/SkillsCard';
 import { siteConfig } from '../../config/site'
@@ -11,7 +10,7 @@ function SkillSection() {
             </div>
             <div className="w-ful flex flex-col md:flex-row gap-4 md:gap-8 md:gap-x-4 md:flex-wrap items-start justify-start py-8 md:py-4 ">
                 {
-                    siteConfig.skillCategories.slice(0,1).map((section) => (
+                    siteConfig.skillCategories.slice(1,2).map((section) => (
                         <SkillsCard key={section.title} title={section.title} skills={section.skills} />
                     ))
                 }
