@@ -1,6 +1,7 @@
 import p1 from '../assets/images/Screen Shots/benchWise .png';
 import p2 from '../assets/images/Screen Shots/plumer.png';
-
+import p3 from '../assets/images/Screen Shots/ScrueJack.jpg';
+import p4 from '../assets/images/Screen Shots/pullySupport.jpg';
 
 export type SiteConfig = typeof siteConfig;
 
@@ -61,19 +62,20 @@ export const siteConfig = {
       img: p1
     },
     {
-      title: "Screw Jack",
-      desc: "A mechanical device used to lift heavy loads, commonly seen in automotive and industrial applications.",
+      title: "Plummer Block",
+      desc: "A mechanical component used to support rotating shafts, ensuring smooth operation and alignment.",
       img: p2
     },
 
     {
-      title: "Butterfly Valve",
+      title: "Screw Jack",
       desc: "A flow control device used to regulate liquids and gases, featuring a rotating disc mechanism.",
-      img: ''
+      img: p3
     },
     {
-      title: "Engine Assembly",
-      desc: "A detailed 3D model of an internal combustion engine, showcasing components like pistons, crankshaft, and valves."
+      title: "Flange & Coupling",
+      desc: "A mechanical component used to connect two shafts, ensuring secure and efficient transmission of power.",
+      img: p4
     },
     {
       title: "Plummer Block",
@@ -126,19 +128,19 @@ export const siteConfig = {
     {
       title: "Engineering",
       skills: [
-        { name: "CAD Design", proficiency: 90 , image:'https://img.icons8.com/color/450/solidworks.png' },
-        { name: "FEA Analysis 1D", proficiency: 85 , image:'https://img.icons8.com/cute-clipart/500/fine-print.png' },
-        { name: "Motion Optimization", proficiency: 95 , image:'https://img.icons8.com/external-flaticons-lineal-color-flat-icons/450/external-aerodynamic-engineering-flaticons-lineal-color-flat-icons.png' },
-        { name: "Mechanical Systems", proficiency: 90 , image:'https://img.icons8.com/bubbles/450/services.png' }
+        { name: "CAD Design", proficiency: 90, image: 'https://img.icons8.com/color/450/solidworks.png' },
+        { name: "FEA Analysis 1D", proficiency: 85, image: 'https://img.icons8.com/cute-clipart/500/fine-print.png' },
+        { name: "Motion Optimization", proficiency: 95, image: 'https://img.icons8.com/external-flaticons-lineal-color-flat-icons/450/external-aerodynamic-engineering-flaticons-lineal-color-flat-icons.png' },
+        { name: "Mechanical Systems", proficiency: 90, image: 'https://img.icons8.com/bubbles/450/services.png' }
       ]
     },
     {
       title: "Software",
       skills: [
-        { name: "AutoCAD", proficiency: 90  , image:"https://img.icons8.com/emoji/400/a-button-blood-type-emoji.png"},
-        { name: "ANSYS", proficiency: 70 , image:'https://img.icons8.com/windows/512/Ansys.png' },
-        { name: "CATIA", proficiency: 60  , image:'https://img.icons8.com/color/480/catia.png'},
-        { name: "SolidWorks", proficiency: 98 , image:'https://img.icons8.com/color/450/solidworks.png' }
+        { name: "AutoCAD", proficiency: 90, image: "https://img.icons8.com/emoji/400/a-button-blood-type-emoji.png" },
+        { name: "ANSYS", proficiency: 70, image: 'https://img.icons8.com/windows/512/Ansys.png' },
+        { name: "CATIA", proficiency: 60, image: 'https://img.icons8.com/color/480/catia.png' },
+        { name: "SolidWorks", proficiency: 98, image: 'https://img.icons8.com/color/450/solidworks.png' }
       ]
     },
     {
