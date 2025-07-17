@@ -88,7 +88,7 @@ export const siteConfig = {
     {
       id: "1",
       title: "PES Modern College of Engineering, Pune",
-      description: "Pursuing Bachelor's in Mechanical Engineering.",
+      description: "Pursuing Bachelor's in Mechanical Engineering. ",
       date: "2026",
       icon: "mdi:graduation-cap",
       status: "in-progress",
@@ -101,7 +101,7 @@ export const siteConfig = {
       id: "2",
       title: "SR Chandak Junior College of Engineering",
       description: "Completed 11th & 12th (HSC).",
-      date: "2021",
+      date: "2022",
       icon: "mdi:book-open-variant",
       status: "completed",
       user: {
@@ -113,7 +113,7 @@ export const siteConfig = {
       id: "3",
       title: "Jnana Prabodhini Solapur",
       description: "Completed SSC with 87%.",
-      date: "2019",
+      date: "2020",
       icon: "mdi:school", // Iconify school icon
       status: "completed",
       user: {
